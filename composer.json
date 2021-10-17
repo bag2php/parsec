@@ -1,0 +1,19 @@
+{
+    "name": "bag2php/parsec",
+    "description": "PHP monadic parser combinator framework for constructing LL(1) parsers.",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">= 7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bag2\\Parsec\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

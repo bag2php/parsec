@@ -14,6 +14,11 @@
             "Bag2\\Parsec\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Bag2\\Parsec\\": "tests/"
+        }
+    },
     "config": {
         "sort-packages": true
     },
